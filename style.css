@@ -1,0 +1,58 @@
+body {
+    width: 90vw;
+    height: 90vh;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+#create {
+    padding: 10px 0 10px 0;
+    width: 50px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    height: 40px;
+}
+
+#reset {
+    padding: 10px 0 10px 0;
+    width: 50px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    height: 40px;
+}
+
+#reset:hover {
+    cursor:pointer;
+}
+
+#grid {
+    border: 3px solid black;
+    width: 70vh;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    border: 1px solid gray;
+    background-color: white;
+    width: auto;
+    height: auto;
+}
